@@ -12,14 +12,14 @@ import pandas as pd
 from Bio.PDB import Model
 from omegaconf import omegaconf
 
-from evaluation.utils.constants import (
+from framedipt.evaluation.utils.constants import (
     DIHEDRAL_ANGLES,
     EVAL_METRICS,
     SAMPLE_SELECTION_STRATEGY,
     XTICKS,
 )
-from evaluation.utils.directory_parser import traverse_prediction_dir
-from evaluation.utils.metrics import (  # full_atom_rmsd,; residue_full_atom_rmsd,
+from framedipt.evaluation.utils.directory_parser import traverse_prediction_dir
+from framedipt.evaluation.utils.metrics import (  # full_atom_rmsd,; residue_full_atom_rmsd,
     asa_abs_error,
     asa_square_error,
     average_metrics_for_middle_residues,
@@ -39,11 +39,11 @@ from evaluation.utils.metrics import (  # full_atom_rmsd,; residue_full_atom_rms
     sample_asa,
     sample_rsa,
 )
-from evaluation.utils.plot import (
+from framedipt.evaluation.utils.plot import (
     boxplot_metrics_alpha_beta,
     swarmplot_metrics_alpha_beta,
 )
-from evaluation.utils.sample_selection import get_selected_models
+from framedipt.evaluation.utils.sample_selection import get_selected_models
 from framedipt.data.utils import read_pdb
 
 

@@ -8,7 +8,7 @@ import hydra
 import omegaconf
 import pandas as pd
 
-from evaluation.utils.metrics import backbone_rmsd, full_atom_rmsd
+from framedipt.evaluation.utils.metrics import backbone_rmsd, full_atom_rmsd
 from framedipt.data.utils import read_pdb
 
 

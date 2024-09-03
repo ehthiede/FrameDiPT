@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from omegaconf import omegaconf
 
-from experiments.inference import Inference
+from framedipt.experiments.inference import Inference
 
 # pylint:disable=protected-access
 

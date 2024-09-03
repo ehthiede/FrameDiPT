@@ -9,7 +9,7 @@ from Bio.PDB import PDBIO, PDBParser
 from Bio.PDB.Model import Model
 from Bio.PDB.Structure import Structure
 
-from evaluation.utils.directory_parser import traverse_prediction_dir
+from framedipt.evaluation.utils.directory_parser import traverse_prediction_dir
 
 
 def get_residue_map(

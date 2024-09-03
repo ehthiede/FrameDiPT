@@ -22,9 +22,9 @@ import torch
 import tree
 from biotite.sequence.io import fasta
 
-from experiments import sampler
-from experiments import utils as exp_utils
-from experiments.utils import logp_confidence_score
+from framedipt.experiments import sampler
+from framedipt.experiments import utils as exp_utils
+from framedipt.experiments.utils import logp_confidence_score
 from framedipt.analysis import metrics
 from framedipt.analysis import utils as analysis_utils
 from framedipt.data import utils as data_utils

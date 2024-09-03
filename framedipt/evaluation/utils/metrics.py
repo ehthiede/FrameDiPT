@@ -14,7 +14,7 @@ import numpy.typing as npt
 import pandas as pd
 from Bio.PDB import SASA, Model, Residue
 
-from evaluation.utils.constants import EVAL_METRICS, TCR_CHAINS
+from framedipt.evaluation.utils.constants import EVAL_METRICS, TCR_CHAINS
 from framedipt.data import parsers
 from framedipt.data import utils as data_utils
 from framedipt.data.utils import read_pdb

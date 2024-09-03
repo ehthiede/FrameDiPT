@@ -11,7 +11,7 @@ import numpy as np
 import numpy.linalg as la
 from Bio.PDB import Model
 
-from evaluation.utils.metrics import get_backbone_atom_coords
+from framedipt.evaluation.utils.metrics import get_backbone_atom_coords
 from framedipt.data.utils import save_to_pdb
 from framedipt.protein.residue_constants import BACKBONE_ATOMS
 
