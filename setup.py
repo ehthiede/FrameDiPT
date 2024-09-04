@@ -34,5 +34,7 @@ setup(
         # "anarci",
         # "openmm",
         # "pdbfixer",
+        # # Packages that can be installed using pip, but you should probably install them manually due to device settings
+        # "torch",
     ],
 )
